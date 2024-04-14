@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: yellow;
+  font-family: Georgia, serif;
+  color: brown;
+  font-size: 18px;
+  margin: 0;
+}
+#title {
+  margin: 0;
+  text-align: center;
+}
+#description {
+  margin: 5px 0 5px 0;
+  text-align: center;
+}
+#survey-form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+#name-label, #email-label, #number-label {
+  border: none;
+  padding: 2rem 0;
+  display: block;
+  margin: 0.5rem 0;
+}
+select, textarea {
+  width: 100%;
+  min-height: 2em;
+}
+.checkbox 
+{
+  width: 60vw;
+  display: box;
+}
+#submit {
+  display: block;
+  width: 60%;
+  height: 2rem;
+  margin: 1em auto;
+  min-width: 300px;
+  color: brown;
+  background-color: orange;
+  font-size: 1.3rem;
+
+}
