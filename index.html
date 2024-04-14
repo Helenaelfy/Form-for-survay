@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html leng="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Form for survey</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Please take a short survey. Thank you!</p>
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label" for="name" > Name <input type="text" name="text" id="name" value="text" required placeholder="Enter your name" /></label>
+      <label id="email-label" for="email"> Email <input type="email" name="email" value="email" id="email" required placeholder="Enter your emeil"/></label>
+      <label id="number-label" for="number"> Number <input type="number" id="number" value="number" name="number" required min="10" max="50" placeholder="Enter a number greater than 10 but less than 50"/></label>
+    </fieldset>
+    <fieldset>
+      <legend>Which color do you like best?</legend>
+      <label for="color-blue"><input type="radio" value="bl" id="color-blue" name="color" checked /> Blue</label>
+      <label for="color-red"><input type="radio" value="rd" id="color-red" name="color"/> Red </label>
+      <label for="color-green"><input type="radio" value="gr" id="color-green" name="color"/> Green </label>
+    </fieldset>
+    <label for="dropdon"> Favorite car brand: 
+    <select id="dropdown" name="dropdawn">
+      <option value="1">BMV</option>
+      <option value="2">Ford</option>
+      <option value="3">Mercedes</option>
+    </select>
+    </label>
+    <fielfset class="checkbox" >
+    <label for="see"> Like see <input type="checkbox" id="see" value="see" name="Like"></label>
+    <label for="read"> Like read <input type="checkbox" id="read" value="read" name="Like"></label/>
+    </fieldset>
+    <label for="comment"> Your comments 
+      <textarea id="comment" name="comment" rows="3" cols="20" placeholder="Enter your comments"></textarea>
+      </label>
+
+      <input id="submit" type="submit"  value="SUBMIT"/>
+  </form>
+</body>
+</html>
